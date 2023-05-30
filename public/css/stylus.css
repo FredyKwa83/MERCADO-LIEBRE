@@ -11,6 +11,24 @@ p strong{
     background-color: aqua;
 } */
 
-div {
-    background-color: salmon;
+
+
+* {
+    box-sizing: border-box;
 }
+
+.container1 {
+    width: 80%;
+    background-color: salmon;
+    padding: 10px;
+    margin: 5px; 
+} 
+
+.container2 {
+width: 10vw;
+background-color: green;
+padding: 10px;
+margin: 5px; 
+} 
+
+
