@@ -13,22 +13,25 @@ p strong{
 
 
 
-* {
+ * {
     box-sizing: border-box;
-}
+} 
 
 .container1 {
-    width: 80%;
+    width: 90%;
     background-color: salmon;
-    padding: 10px;
-    margin: 5px; 
+    padding: 20px;
+    border: solid 5px black;
+    text-align: justify;
 } 
 
 .container2 {
-width: 10vw;
+width: 88vw;
 background-color: green;
-padding: 10px;
-margin: 5px; 
+padding: 20px;
+ 
+border: solid 5px red;
+text-align: justify;
 } 
 
 
