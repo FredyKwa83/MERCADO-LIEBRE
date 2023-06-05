@@ -77,19 +77,21 @@ h1{
     border-top: none;
 }
 
-p {
-    padding-left: 10px;
+.bold {
+    padding-left: 15px;
     font-weight: bold;
 }
 
 .gris{
     color:#666;
     font-weight: 600;
+    padding-left: 15px;
 }
 
 .verde{
     color:#39b54a;
     font-weight: 600;
+    padding-left: 15px;
 }
 
 .producto{
@@ -104,8 +106,50 @@ p {
     top:15px;
     left: 16px;
     width:60px;
-    
 }
+
+/* --------------Footer---360p---celular--------------*/
+
+.ajustesection{
+    text-align: center;
+    padding-top: 40px;
+    color:#666; 
+}
+
+.parrafo-footer {
+    margin:0px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+h2{
+    margin:0px;
+}
+
+.caja{
+    width: 100%;
+    border:solid 10px #ebebeb;
+    border-top: none;
+}
+
+.icono{
+    width:2em;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 1.3rem;
+}
+
+.copyrigth{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+
+/***********************************************/
 
 @media (min-width: 768px) {
 .main-header-top-bar{
@@ -156,7 +200,6 @@ p {
 
 .main-navbar li {
     margin: 0 5px;
-   
 } 
 
 .container{
@@ -171,31 +214,33 @@ p {
     padding-top: 30px;
 }
 
-p {
-    padding-left: 20px;
-    
-  
+.bold {
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.verde{
+    padding-left: 15px;
+}
+
+.gris{
+    padding-left: 15px;
 }
 
 .producto{
     display: block;
     margin: auto;
-    
 }
 
 .acomdar{
     padding-top: 20px;
-
 }
 
 .caja{
     width: 33%;
     border:solid 10px #ebebeb;
     border-top: none;
-    width: 100%;
 }
-
-
 
 h1{
     font-size: 1.5rem;
@@ -203,11 +248,12 @@ h1{
 
 .ajusteh1{
     padding-top: 33px;
-    
 }
+
 .bajar{
     padding-top: 35px;
 }
+
 .imagen1{
     width:124px;
 }
@@ -219,6 +265,18 @@ h1{
 .acomodar2{
     padding-top: 15px;
 }
+
+.icono{
+    width:3.5em;
+    margin-bottom: 10px;
+}
+
+.parrafo-footer {
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+/***********************************************/
 
 @media (min-width: 1200px) {
     .main-header-top-bar, .main-navbar {
@@ -253,13 +311,11 @@ h1{
     width: 33px;
     height: 33px;
     position:relative;
-    top:5px;
-    
+    top:5px;  
 }
 
 .logo{
     width: 250px;
-    /* width: 200px; */
     height: 70px;
 }
 
@@ -294,6 +350,26 @@ h1{
 }
 .imagen3{
     width:280px;
+}
+
+/* ----- footer------1200px-----Escritorio------- */
+
+.footerdisplay{
+    display:flex; 
+    flex-direction:wrap; 
+}
+.parrafo-footer {
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 18px;
+} 
+.ajustesection{
+   margin:30px;
+}
+.copyrigth{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 10px;
 }
 }
 }
