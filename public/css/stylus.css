@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
 }
 
 body{
@@ -52,7 +54,7 @@ body{
 .main-navbar ul {
     list-style: none;
     margin:0;
-    padding: 0;
+    padding:0;
 }
 
 .main-navbar a {
@@ -70,6 +72,7 @@ h1{
     margin:0;
     padding: 8px 15px;
 }
+
 
 .caja{
     width: 100%;
@@ -107,6 +110,14 @@ h1{
     left: 16px;
     width:60px;
 }
+
+/* --------------Formulario---------------------- */
+
+.main-formulario{
+    background-color: #ebebeb;
+    padding:100px;
+}
+
 
 /* --------------Footer---360p---celular--------------*/
 
@@ -152,6 +163,7 @@ h2{
 /***********************************************/
 
 @media (min-width: 768px) {
+
 .main-header-top-bar{
     /* border:dotted 2px red; */
     display: flex;
@@ -214,21 +226,7 @@ h2{
     padding-top: 30px;
 }
 
-.bold {
-    padding-left: 15px;
-    font-weight: bold;
-}
-
-.verde{
-    padding-left: 15px;
-}
-
-.gris{
-    padding-left: 15px;
-}
-
 .producto{
-    display: block;
     margin: auto;
 }
 
@@ -265,6 +263,7 @@ h1{
 .acomodar2{
     padding-top: 15px;
 }
+/* -------- footer 768px-------- */
 
 .icono{
     width:3.5em;
@@ -274,6 +273,7 @@ h1{
 .parrafo-footer {
     padding-right: 120px;
     padding-left: 120px;
+}
 }
 
 /***********************************************/
@@ -370,6 +370,5 @@ h1{
     text-align: center;
     font-size: 18px;
     padding-bottom: 10px;
-}
 }
 }
