@@ -84,18 +84,21 @@ h1{
 .bold {
     padding-left: 15px;
     font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .gris{
     color:#666;
     font-weight: 600;
     padding-left: 15px;
+    margin-bottom:15px;
 }
 
 .verde{
     color:#39b54a;
     font-weight: 600;
     padding-left: 15px;
+    margin-bottom: 5px;
 }
 
 .producto{
@@ -106,10 +109,11 @@ h1{
 }
 
 .car{
+    padding-bottom: 10px;
     position: relative;
-    top:15px;
-    left: 16px;
-    width:60px;
+    top:10px;
+    left:30px;
+    width:50px;
 }
 
 /* --------------Formulario---------------------- */
