@@ -212,7 +212,7 @@ h2{
     height: 23px;
     position:relative;
     top:20px;
-    right: 20px;
+    right: 120px;
 }
 
 .logo{
@@ -224,7 +224,7 @@ h2{
     margin-top: 15px;
     height: 30px;
     margin-left:0;
-    width: 200px;
+    width: 350px;
 }
 
 .hamburguer-button{
@@ -274,10 +274,6 @@ h2{
 
 h1{
     font-size: 1.5rem;
-}
-
-.ajusteh1{
-    padding-top: 33px;
 }
 
 .bajar{
@@ -330,7 +326,7 @@ h1{
 
 /***********************************************/
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
     .main-header-top-bar, .main-navbar {
      /* border:dotted 2px red; */
      margin: auto;
@@ -385,9 +381,6 @@ h1{
 
 .main-header{
     padding: 50px;
-}
-.ajusteh1{
-    padding-top: 5px; 
 }
 
 .imagen1{
