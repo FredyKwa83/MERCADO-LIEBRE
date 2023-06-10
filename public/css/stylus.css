@@ -151,7 +151,7 @@ h1{
     border-radius: 6px;
 }
 
-/* --------------Footer---360p---celular--------------*/
+/* --------------Footer---360px---celular--------------*/
 
 .ajustesection{
     text-align: center;
@@ -191,6 +191,9 @@ h2{
     font-size: 14px;
 }
 
+p{
+    padding-bottom: 20px;
+}
 
 /***********************************************/
 
@@ -212,7 +215,7 @@ h2{
     height: 23px;
     position:relative;
     top:20px;
-    right: 120px;
+    right: 15px;
 }
 
 .logo{
@@ -224,7 +227,7 @@ h2{
     margin-top: 15px;
     height: 30px;
     margin-left:0;
-    width: 350px;
+    width: 250px;
 }
 
 .hamburguer-button{
@@ -322,11 +325,14 @@ h1{
     padding-right: 120px;
     padding-left: 120px;
 }
+p{
+    padding-bottom: 20px;
+}
 }
 
 /***********************************************/
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .main-header-top-bar, .main-navbar {
      /* border:dotted 2px red; */
      margin: auto;
